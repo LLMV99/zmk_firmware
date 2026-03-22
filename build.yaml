@@ -51,6 +51,8 @@ include:
 
   - board: nice_nano_v2
     shield: miiunic_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
   - board: nice_nano_v2
     shield: settings_reset
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
